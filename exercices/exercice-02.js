@@ -15,3 +15,10 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+const mot = "Programmation"
+const première = mot[0];
+const dernière = mot[mot.length - 1]
+console.log(première);
+console.log(dernière);
+
+
