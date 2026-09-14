@@ -9,4 +9,10 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+const mot = "javascript";
+const phrase = "J'apprends le JavaScript à YouCode";
+
+const resultat = phrase.toLocaleLowerCase().includes(mot.toLocaleLowerCase());
+
+console.log(resultat);
+
