@@ -9,12 +9,11 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+let date = "2024-10-15"
+
+const annee = date.slice(0, 4);
+
+console.log(annee);
 
 
 
-function myFunc(age){
-    return age * 2;
-}
-
-console.log(myFunc(15));
