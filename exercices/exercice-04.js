@@ -14,4 +14,10 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+function VÉRIFICATION(email){
+    return email.includes('@')
+}
+
+console.log(VÉRIFICATION("younessafsafi@gmail.com"));
+

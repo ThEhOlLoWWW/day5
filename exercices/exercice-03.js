@@ -14,4 +14,14 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+let mot1 = "youcode"
+let mot2 = "MAROC"
+
+const majuscules = mot1.toLocaleUpperCase()
+const minuscules = mot2.toLocaleLowerCase()
+
+console.log(majuscules);
+console.log(minuscules);
+
+
