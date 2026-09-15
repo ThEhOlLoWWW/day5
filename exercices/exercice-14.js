@@ -14,4 +14,12 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+function Comptez(chaîne){
+    let array = chaîne.trim();
+    array = array.split(" ");
+    array = array.filter(item => item !== "")
+    return array.length;
+}
+
+console.log(Comptez("  hello  my name  is Markeplier"));
