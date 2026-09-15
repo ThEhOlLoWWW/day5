@@ -1,2 +1,1 @@
-
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-03
+mot1[0]
